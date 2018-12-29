@@ -6,21 +6,31 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>666</width>
-    <height>354</height>
+    <width>493</width>
+    <height>336</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dictionary</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QLineEdit" name="le_search">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>60</y>
-      <width>291</width>
-      <height>41</height>
+      <x>100</x>
+      <y>30</y>
+      <width>281</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="lw_result">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>70</y>
+      <width>281</width>
+      <height>192</height>
      </rect>
     </property>
    </widget>
@@ -30,7 +40,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>666</width>
+     <width>493</width>
      <height>25</height>
     </rect>
    </property>

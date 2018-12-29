@@ -10,13 +10,13 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = dic
 TEMPLATE = app
-
+QTPLUGIN += QSQLMYSQL
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    connection.cpp
+    connect_mysql.cpp
 
 HEADERS  += mainwindow.h \
-    connection.h
+    connect_mysql.h
 
 FORMS    += mainwindow.ui

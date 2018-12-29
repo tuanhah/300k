@@ -18,6 +18,8 @@ public:
 private slots:
     void on_textEdit_textChanged();
 
+    void on_le_search_textChanged(const QString &arg1);
+
 private:
     Ui::MainWindow *ui;
 };
