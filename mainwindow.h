@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#include<connect_mysql.h>
 namespace Ui {
 class MainWindow;
 }
@@ -22,6 +22,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    connect_mysql connect;
+
 };
 
 #endif // MAINWINDOW_H

@@ -11,6 +11,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
 }
 
 MainWindow::~MainWindow()
@@ -25,7 +26,7 @@ void MainWindow::on_textEdit_textChanged()
 
 void MainWindow::on_le_search_textChanged(const QString &arg1)
 {
-    connect_mysql connect;
+//    connect_mysql connect;
     if (connect.isOpen()){
         QList<QString> rs;
         ui->lw_result->clear();
